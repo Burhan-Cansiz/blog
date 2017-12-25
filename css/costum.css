@@ -75,6 +75,13 @@ nav a:hover{color: #0ff5f7!important}
 /*Klaslar
 *************************/
 
+/*Medya sorguları
+*************************/
+@media screen and (max-width:768px){
+    .uyeol{margin-left: 0px!important}
+}
+/*Medya sorguları
+*************************/
 body{
     overflow-y: scroll!important;
     font-family: playregular;
