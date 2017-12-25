@@ -31,7 +31,7 @@
 
         <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-9" aria-expanded="false" style="height: 1px;">
             <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#">Ana Sayfa</a></li>
+                <li class="active"><a href="index.html">Ana Sayfa</a></li>
                 <li class="active"><a href="javascript:void(0)">Tarifler</a></li>
                 <li class="active mrgLR8"><button onclick="$.uyeKayitForm()" type="button" class="btn btn-success navbar-btn btn-sm brdRds0"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>&nbsp; Üyeol</button></li>
                 <li class="active"><button onclick="$.loginForm()" type="button" class="btn btn-success navbar-btn btn-sm brdRds0"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; Oturum Aç</button></li>
@@ -41,10 +41,33 @@
     </nav>
 </header>    
 <!--Header.--> 
-    
-    
-    
-    
+
+<!--Slayder-->     
+<div id="carousel-example-generic" class="carousel slide slayder" data-ride="carousel">
+    <ol class="carousel-indicators hide">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img alt="" src="img/slayder/1.jpg" data-holder-rendered="true">
+        </div>
+        <div class="item">
+            <img alt="" src="img/slayder/2.jpg" data-holder-rendered="true">
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Önceki</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Sonraki</span>
+    </a>
+</div>
+<!--Slayder.-->     
     
     
     
