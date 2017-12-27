@@ -58,10 +58,11 @@
 
 /*Bootstrap Reset
 *************************/
+*{list-style-type: none!important}
+a{text-decoration: none!important}
 nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
 .slayder,header{background-image: url('../img/global/sliderBg.png')}
-*{list-style-type: none!important}
 .carousel-caption{color: black;text-shadow: none}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{background: none!important;box-shadow: none!important}
 nav a:hover{color: #0ff5f7!important}
@@ -90,6 +91,11 @@ body{
 .slayder img{margin: auto!important}
 
 .tarif a{margin-bottom: 15px}
+.tarif h5 {
+    height: 44px;
+    overflow: hidden;
+    line-height: 20px;
+}
 @media screen and (min-width:415px) and (max-width:767px) {
     .tarif a{width: 50%}
 }
