@@ -89,9 +89,7 @@ body{
 }
 .slayder img{margin: auto!important}
 
-@media screen and (min-width:375px) and (max-width:768px) {
-    .tarif a{
-        width: 50%!important;
-    }
+@media screen and (min-width:415px){
+    .tarif a{width: 50%}
 }
 
