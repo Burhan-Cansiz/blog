@@ -92,6 +92,4 @@ body{
 @media screen and (min-width:415px) and (max-width:767px) {
     .tarif a{width: 50%}
 }
-@media screen and (min-width:1024px) {
-    .tarif a{width: 20%}
-}
+
