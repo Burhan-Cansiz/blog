@@ -96,6 +96,9 @@ body{
     overflow: hidden;
     line-height: 20px;
 }
+.tarif img {
+    max-height: 135px
+
 @media screen and (min-width:415px) and (max-width:767px) {
     .tarif a{width: 50%}
 }
