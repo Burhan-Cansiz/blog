@@ -92,7 +92,7 @@ nav a:hover{color: #0ff5f7!important}
     height: 1px;
     margin: -7px auto
 }
-@media screen and (min-width:992px) {
+@media screen and (min-width:768px) {
     .yorumForm .ad{
         margin-right: 11px
     }
