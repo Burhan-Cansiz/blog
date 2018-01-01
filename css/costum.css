@@ -122,17 +122,3 @@ body{
     .tarif a{width: 20%}
 }
 
-/*Tarifler
-*************************/
-
-/*Tarif detay
-*************************/
-@media screen and (min-width:992px) {
-    .tarifDetay>div{padding-left: 0}
-}
-@media screen and (min-width:768px) and (max-width:991px){
-    .tarifDetay>div{padding-left: 0;padding-right: 0}
-}
-
-/*Tarif detay
-*************************/
