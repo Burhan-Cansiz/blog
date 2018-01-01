@@ -66,6 +66,7 @@ nav{border-radius: 5px!important;margin-top: 20px}
 .carousel-caption{color: black;text-shadow: none}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{background: none!important;box-shadow: none!important}
 nav a:hover{color: #0ff5f7!important}
+.tab-content>.tab-pane{padding: 11px 0}
 /*Bootstrap Reset
 *************************/
 
@@ -91,6 +92,16 @@ nav a:hover{color: #0ff5f7!important}
     height: 1px;
     margin: -7px auto
 }
+@media screen and (min-width:992px) {
+    .yorumForm .ad{
+        margin-right: 11px
+    }
+    .yorumForm .ad, .yorumForm .soyad{
+        width: 49%;
+        float: left
+    }
+}
+
 /*Klaslar
 *************************/
 
