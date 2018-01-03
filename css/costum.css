@@ -79,6 +79,7 @@ nav a:hover{color: #0ff5f7!important}
 .red{background: red}
 .mrgB25{margin-bottom: 25px}
 .transparanBg{background: rgba(0, 0, 0, .6);filter: alpha(opacity=50);}
+.kategoriMenu{display: none}
 .bolumBaslik h4{
     background: #ffe800;
     display: inline-block;
@@ -126,6 +127,14 @@ nav a:hover{color: #0ff5f7!important}
         width: 49%;
         float: left
     }
+}
+.kategoriMenuItem{
+    height: 98px;
+    line-height: 98px;
+    margin-bottom: 15px
+}
+.kategoriMenuItem div{
+    background: #f5f5f5;
 }
 
 /*Klaslar

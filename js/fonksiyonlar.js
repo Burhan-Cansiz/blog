@@ -31,6 +31,20 @@ $(function () {
         '</div>'
         );
     }
+
+        $.kategoriMenuAc = function () {
+        $('.kategoriMenu').show();
+    };
+$('.kategoriMenu .kapat').click(function(){
+   $('.kategoriMenu').hide(); 
+})
+
+
+
+
+
+
+
     $.modalKapat = function () {
         $('#ajax').html('');
         return false;
