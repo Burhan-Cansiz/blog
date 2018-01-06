@@ -83,7 +83,8 @@ nav a:hover{color: #0ff5f7!important}
 /*Klaslar
 *************************/
 .bodyBg{
-        background-image: url('../img/global/footerBg.jpg')!important;
+    
+    background-image: url('../img/global/footerBg.jpg')!important;
     background-repeat:no-repeat;
     background-position:right bottom; 
     background-attachment: fixed;
