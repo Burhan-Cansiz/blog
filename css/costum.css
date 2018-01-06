@@ -82,6 +82,12 @@ nav a:hover{color: #0ff5f7!important}
 
 /*Klaslar
 *************************/
+.bodyBg{
+        background-image: url('../img/global/footerBg.jpg')!important;
+    background-repeat:no-repeat;
+    background-position:right bottom; 
+    background-attachment: fixed;
+}
 .mrgLR8{margin-left: 8px;margin-right: 8px}
 .brdRds0{border-radius: 0px!important}
 .colorOrange{color: orange}
