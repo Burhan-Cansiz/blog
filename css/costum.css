@@ -144,7 +144,12 @@ nav a:hover{color: #0ff5f7!important}
     margin-bottom: 15px
 }
 .kategoriMenuItem div{
+    border: 1px solid #f5f5f5;
+}
+.loginForm>div{
     background: #f5f5f5;
+    padding: 25px 29px 37px 29px;
+    border-radius: 6px;
 }
 
 /*Klaslar
