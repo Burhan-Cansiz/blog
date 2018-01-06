@@ -65,7 +65,6 @@ nav{border-radius: 5px!important;margin-top: 20px}
 .slayder,header{background-image: url('../img/global/sliderBg.png')}
 .carousel-caption{color: black;text-shadow: none}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{background: none!important;box-shadow: none!important}
-nav a:hover{color: #0ff5f7!important}
 .tab-content>.tab-pane{padding: 11px 0}
 @media screen and (min-width:769px){
     .row {
