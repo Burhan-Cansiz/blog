@@ -66,16 +66,7 @@ nav{border-radius: 5px!important;margin-top: 20px}
 .carousel-caption{color: black;text-shadow: none}
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{background: none!important;box-shadow: none!important}
 .tab-content>.tab-pane{padding: 11px 0}
-@media screen and (min-width:769px){
-    .row {
-        margin-left: -5px;
-        margin-right: -5px;
-    }
-    [class^="col-"],.navbar,.navbar-default,.navbar-inverse,.container,.container-fluid {
-        padding-left: 5px!important;
-        padding-right: 5px!important;
-    }
-}
+
 /*Bootstrap Reset
 *************************/
 
@@ -129,15 +120,7 @@ nav{border-radius: 5px!important;margin-top: 20px}
     from {margin-top: 1%;}
     to {margin-top: 6%;}
 }
-@media screen and (min-width:768px) {
-    .yorumForm .ad{
-        margin-right: 11px
-    }
-    .yorumForm .ad, .yorumForm .soyad{
-        width: 49%;
-        float: left
-    }
-}
+
 .kategoriMenuItem{
     height: 98px;
     line-height: 98px;
@@ -156,13 +139,6 @@ nav{border-radius: 5px!important;margin-top: 20px}
 /*Klaslar
 *************************/
 
-/*Medya sorguları
-*************************/
-@media screen and (max-width:768px){
-    .uyeol,.login{margin-left: 8px!important}
-}
-/*Medya sorguları
-*************************/
 body{
     overflow-y: scroll!important;
     font-family: playregular;
@@ -171,16 +147,11 @@ body{
 
 /*Tarifler
 *************************/
-.tarif a{margin-bottom: 15px}
-.tarif h5 {
+.makaleler a{margin-bottom: 15px}
+.makaleler h5 {
     height: 44px;
     overflow: hidden;
     line-height: 20px;
 }
-@media screen and (min-width:415px) and (max-width:767px) {
-    .tarif a{width: 50%}
-}
-@media screen and (min-width:1024px) {
-    .tarif a{width: 20%}
-}
+
 
