@@ -5,74 +5,66 @@
 <meta charset="utf-8" />
 <title>Kadına Dair</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
+<!-- Bootstrap CSS-->
 <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 <link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">    
 <link rel="stylesheet" href="css/costum.css?v=1.10">
-<!--/ Bootstrap CSS -->    
+<link rel="stylesheet" href="css/medyaSorgulari.css?v=1">
+<!--Bootstrap CSS.-->    
 </head>
 <body>
+    
+<!--Ajax--> 
+<div id="ajax"></div>
+<!--Ajax--> 
+
 <!--Kategoriler-->
 <div class="modalBox transparanBg kategoriMenu">
- 
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-24 text-left">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                      
-<ul id="myTab" class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active"><a href="#detay" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">Yemek Tarifleri</a></li>
-    <li role="presentation" class=""><a href="#yorum" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Diğr Katg</a></li>
-    <li role="presentation" class="pull-right kapat"><a href="javascript:void(0)" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Kapat</a></li>
-</ul>
-<div id="myTabContent" class="tab-content"> 
-                <div role="tabpanel" class="tab-pane fade active in" id="detay" aria-labelledby="home-tab">
-               
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Börekler</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tatlılar</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hamur İşi</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Dolmalar</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tereyağlı</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Zeytin Yağlı</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Açma</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Atıştırmalık</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaş Pasta</span></div></a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-24 text-left">
+                <div class="panel panel-default">
+                    <div class="panel-body">
 
-    </div>
-                <div role="tabpanel" class="tab-pane fade" id="yorum" aria-labelledby="profile-tab">
-                    
- <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Teknoloji</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Moda</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Takı</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>2018 Trentler</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Sağlık</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaşam</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hobi</span></div></a>
-    <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Alışverş</span></div></a>
-
-
-
-
-                </div>
-                
-              
-            </div>                            
+                        <ul id="myTab" class="nav nav-tabs" role="tablist">
+                            <li role="presentation" class="active"><a href="#yemek" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">Yemek Tarifleri</a></li>
+                            <li role="presentation"><a href="#diger" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Diğr Katg</a></li>
+                            <li role="presentation" class="pull-right kapat"><a href="javascript:void(0)" role="tab" data-toggle="tab" aria-expanded="true">Kapat</a></li>
+                        </ul>
+                        
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade active in" id="yemek" aria-labelledby="home-tab">
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Börekler</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tatlılar</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hamur İşi</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Dolmalar</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tereyağlı</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Zeytin Yağlı</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Açma</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Atıştırmalık</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaş Pasta</span></div></a>
+                            </div>
                             
-                            
+                            <div role="tabpanel" class="tab-pane fade" id="diger" aria-labelledby="profile-tab">
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Teknoloji</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Moda</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Takı</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>2018 Trentler</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Sağlık</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaşam</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hobi</span></div></a>
+                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Alışverş</span></div></a>
+                            </div>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
- 
+    </div>
 </div>
 <!--Kategoriler-->
-
-<!--Ajax--> 
-<div id="ajax"></div>
-<!--Ajax-->     
-      
+    
 <!--Header-->
 <header>
     <div class="container">
@@ -102,28 +94,32 @@
         </nav>
     </div>
 </header><br/>
-<!--Header.-->
-    
-<!--Kontent-->     
+<!--Header.--> 
+
+<!--Kontent--> 
 <section class="container">
-    
+
 <!--Nerdeyim.-->
 <section class="row">
     <div class="col-xs-24">
         <ol class="breadcrumb">
             <li><a href="#">Ana Sayfa</a></li>
-            <li><a href="#">Oturum Aç</a></li>
+            <li><a href="#">Detay</a></li>
+            <li class="active">Kokteyl Tarifi</li>
         </ol>
     </div>
 </section>
-<!--Nerdeyim.-->    
+<!--Nerdeyim.-->  
 
 <div class="row">
-    
-<div class="hidden-xs col-sm-12 col-md-15">
+ 
+<!--Sol-->    
+<section class="hidden-xs col-sm-12 col-md-15">
 .
-</div>
-    
+</section>
+<!--Sol.--> 
+ 
+<!--Sağ-->     
 <form class="col-sm-12 col-md-9 loginForm">
     <div>
     <h4><span class="glyphicon glyphicon-user" aria-hidden="true"></span> &nbsp; Oturum Aç</h4><br/>    
@@ -136,16 +132,17 @@
     <div class="text-right"><button type="submit" class="btn btn-success btn-sm">Submit</button></div>
     </div>
 </form>
+<!--Sağ.--> 
     
-</div>
+</div>  
     
-</section>  
+</section>    
 <!--Kontent.-->     
 
 <!-- Bootstrap CSS -->
 <script src="css/bootstrap/jquery.js"></script>
 <script src="css/bootstrap/bootstrap.min.js"></script>
 <script src="js/fonksiyonlar.js"></script>
-<!-- /Bootstrap CSS -->   
+<!-- Bootstrap CSS. -->   
 </body>
 </html>
