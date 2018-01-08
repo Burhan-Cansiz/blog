@@ -59,7 +59,7 @@
 /*Bootstrap Reset
 *************************/
 *{list-style-type: none!important}
-a{text-decoration: none!important}
+a{text-decoration: none!important;}
 nav{border-radius: 5px!important;margin-top: 20px}
 .left,.right{background: none!important}
 .slayder,header{background-image: url('../img/global/sliderBg.png')}
