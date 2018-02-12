@@ -1,2 +1,0 @@
-# Kadına dair
-kadina dair

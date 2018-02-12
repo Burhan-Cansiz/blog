@@ -1,22 +1,11 @@
-/*Font
-*************************/
-@font-face {
-    font-family: 'playregular';
-    src: url('fonts/play-regular-webfont.woff2') format('woff2'),
-         url('fonts/play-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
 
-}
-@font-face {
-    font-family: 'exo';
-    src: url('fonts/exo-regular-webfont.woff2') format('woff2'),
-         url('fonts/exo-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-/*Font
-*************************/
+
+/*Sınıflar*/
+.mrgR7{margin-right: 7px}
+.colorBlack{color: black!important}
+.red{background:  red}
+
+/*Sınıflar*/
 
 /*Scroll
 *************************/
@@ -56,33 +45,16 @@
 /*Scroll
 *************************/
 
-/*Bootstrap Reset
-*************************/
-*{list-style-type: none!important}
-a{text-decoration: none!important;}
-nav{border-radius: 5px!important;margin-top: 20px}
-.left,.right{background: none!important}
-.slayder,header{background-image: url('../img/global/sliderBg.png')}
-.carousel-caption{color: black;text-shadow: none}
-.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.active>a{background: none!important;box-shadow: none!important}
-.tab-content>.tab-pane{padding: 11px 0}
-
-/*Bootstrap Reset
-*************************/
-
-/*Klaslar
-*************************/
-.mrgLR8{margin-left: 8px;margin-right: 8px}
-.brdRds0{border-radius: 0px!important}
-.colorWht{color: white!important}
-.colorOrange{color: orange}
-.orange{background: orange}
-.red{background: red}
-.mrgB25{margin-bottom: 25px}
-.transparanBg{background: rgba(0, 0, 0, .6);filter: alpha(opacity=50);}
-.kategoriMenu{display: none}
+body{
+    overflow-y: scroll
+}
+header,#slayder{background: url('../img/global/sliderBg.png')}
+header{
+    padding: 15px 0;
+}
 .bolumBaslik h4{
-    background: #ffe800;
+    background: #ffc107;
+    border-color: #ffc107;
     display: inline-block;
     line-height: 35px;
     padding: 0 10px;
@@ -93,64 +65,19 @@ nav{border-radius: 5px!important;margin-top: 20px}
 .bolumBaslik hr{
     background: #0f0f0d;
     height: 1px;
-    margin: -7px auto
-}
-.modalBox {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    z-index: 1031;
-    text-align: center;
-    padding: 0px!important;
-    margin: 0px!important;
-    border: none!important;
-    border-radius: 0px!important;
-    overflow-x: hidden;
-    overflow-y: auto;
-    bottom: 0px!important;
-}
-.modalBox>div{
-    margin-top: 6%;
-    animation-name: modalIcerikAnimasyon;
-    animation-duration: .5s;    
-}
-@keyframes modalIcerikAnimasyon { 
-    from {margin-top: 1%;}
-    to {margin-top: 6%;}
+    margin: 0 auto
 }
 
-.kategoriMenuItem{
-    height: 98px;
-    line-height: 98px;
-    margin-bottom: 15px
-}
-.kategoriMenuItem div{
-    border: 1px solid #f5f5f5;
-}
-.loginForm>div{
-    background: #f5f5f5;
-    padding: 25px 29px 37px 29px;
-    border-radius: 6px;
-}
-
-/*Klaslar
-*************************/
-
-body{
-    overflow-y: scroll!important;
-    font-family: playregular;
-}
-.slayder img{margin: auto!important}
-
-/*Tarifler
-*************************/
-.makaleler a{margin-bottom: 15px}
-.makaleler h5 {
+.sonGonderiler a{margin-bottom: 15px}
+.sonGonderiler h1{
     height: 44px;
     overflow: hidden;
     line-height: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, .9)
 }
+
+
 
 

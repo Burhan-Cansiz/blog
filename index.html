@@ -1,205 +1,140 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="utf-8" />
-<title>Kadına Dair</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap/bootstrap-theme.min.css">    
-<link rel="stylesheet" href="css/costum.css?v=1.1">
-<link rel="stylesheet" href="css/medyaSorgulari.css?v=1">
-<!--/ Bootstrap CSS -->    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/ikon/css/fontello.css">
+    <link rel="stylesheet" href="css/costum.css?v=1">
+    <link rel="stylesheet" href="css/medyaSorgulari.css?v=1">
+    <title>tekno Blog</title>
 </head>
 <body>
-    
-<!--Ajax--> 
-<div id="ajax"></div>
-<!--Ajax--> 
 
-<!--Kategoriler-->
-<div class="modalBox transparanBg kategoriMenu">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-24 text-left">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-
-                        <ul id="myTab" class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#yemek" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="false">Yemek Tarifleri</a></li>
-                            <li role="presentation"><a href="#diger" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="true">Diğr Katg</a></li>
-                            <li role="presentation" class="pull-right kapat"><a href="javascript:void(0)" role="tab" data-toggle="tab" aria-expanded="true">Kapat</a></li>
-                        </ul>
-                        
-                        <div id="myTabContent" class="tab-content">
-                            <div role="tabpanel" class="tab-pane fade active in" id="yemek" aria-labelledby="home-tab">
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Börekler</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tatlılar</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hamur İşi</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Dolmalar</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Tereyağlı</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Zeytin Yağlı</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Açma</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Atıştırmalık</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaş Pasta</span></div></a>
-                            </div>
-                            
-                            <div role="tabpanel" class="tab-pane fade" id="diger" aria-labelledby="profile-tab">
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Teknoloji</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Moda</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Takı</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>2018 Trentler</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Sağlık</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Yaşam</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Hobi</span></div></a>
-                                <a href="#" class="col-xs-12 col-md-4 kategoriMenuItem text-center"><div><span>Alışverş</span></div></a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--Kategoriler-->
-    
-<!--Header-->
 <header>
-    <div class="container">
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-                        <span class="sr-only">Navigasyonu aç/kapa</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+<div class="container">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">BC</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-                    <button type="button" class="navbar-toggle pb0 " data-toggle="modal" data-target=".bs-example-modal-lg"></button>
-                    <a class="navbar-brand" href="index.html">Kadına Dair</a>
-                </div>
-                <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-9" aria-expanded="false" style="height: 1px;">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> &nbsp; Ana Sayfa</a></li>
-                        <li><a href="javascript:void(0)" onclick="$.makaleAraForm()"><span class="glyphicon glyphicon-search" aria-hidden="true"></span> &nbsp; Ara</a></li>
-                        <li><a href="javascript:void(0)" onclick="$.kategoriMenuAc()"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> &nbsp; Menü</a></li>
-                        <li class="mrgLR8 uyeol"><div class="btn btn-success btn-sm navbar-btn"><a href="uyeol.html" class="colorWht"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>&nbsp; <span>Üyeol</span></a></div></li>
-                        <li class="login"><div class="btn btn-success btn-sm navbar-btn"><a href="login.html" class="colorWht"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>&nbsp; <span>Oturum Aç</span></a></div></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
+  <div class="navbar-collapse collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html"><span class="icon-home"></span>&nbsp; Anasayfa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="icon-search"></span>&nbsp; Ara</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><span class="icon-menu"></span>&nbsp; Menü &nbsp; </a>
+      </li>
+      <li class="nav-item mrgR7 uyeOl">
+        <a class="btn btn-warning btn-sm colorBlack nav-link" href="#"><span class="icon-user-female"></span>&nbsp; Üye Ol</a>
+      </li>
+      <li class="nav-item login">
+        <a class="btn btn-warning btn-sm colorBlack nav-link" href="#"> <span class="icon-user-female"></span>&nbsp; Oturum Aç</a>
+      </li>      
+    </ul>
+  </div>
+</nav>
+</div>
 </header>
-<!--Header.--> 
 
-<!--Slayder-->     
-<section id="slayder" class="carousel slide slayder" data-ride="carousel">
-    <ol class="carousel-indicators hide">
-        <li data-target="#slayder" data-slide-to="0" class=""></li>
-        <li data-target="#slayder" data-slide-to="1" class=""></li>
-        <li data-target="#slayder" data-slide-to="2" class="active"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active"><img alt="" src="img/slayder/1.png" data-holder-rendered="true"></div>
-        <div class="item"><img alt="" src="img/slayder/2.png" data-holder-rendered="true"></div>
-        <div class="item"><img alt="" src="img/slayder/3.png" data-holder-rendered="true"></div>
-        <div class="item"><img alt="" src="img/slayder/4.png" data-holder-rendered="true"></div>
+<section id="slayder" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active text-center">
+      <img class="img-fluid" src="img/slayder/1.png" alt="First slide">
     </div>
-    <a class="left carousel-control" href="#slayder" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Önceki</span>
-    </a>
-    <a class="right carousel-control" href="#slayder" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Sonraki</span>
-    </a>
-</section><br/>
-<!--Slayder.-->     
+    <div class="carousel-item text-center">
+      <img class="img-fluid" src="img/slayder/2.png" alt="First slide">
+    </div>
+    <div class="carousel-item text-center">
+      <img class="img-fluid" src="img/slayder/3.png" alt="First slide">
+    </div>    
+  </div>
+  <a class="carousel-control-prev" href="#slayder" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slayder" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</section><br>
 
-<!--Bölüm başlık-->
-<section class="container">
+<div class="container">
     <div class="row">
-        <div class="col-xs-24 bolumBaslik">
-            <h4> &nbsp; <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> &nbsp; Son Gönderiler</h4>
-            <hr/>
+        <div class="col bolumBaslik ">
+            <h4><span class="icon-menu"></span> Son Gönderiler</h4>
+            <hr>
         </div>
     </div>
-</section><br/>
-<!--Bölüm başlık.-->    
+</div><br>
 
-<!--Kontent-->
-<section class="container">
-    <div class="row makaleler">
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-                <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-        <a href="detay.html" class="col-xs-24 col-sm-8 col-md-6">
-            <figure>
-                <img src="img/makale/2.jpg" class="img-responsive" alt="fff"/>
-            </figure> 
-            <h5>Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi Tropikal Kokteyl Tarifi </h5>
-        </a>
-    </div>
+<section class="container sonGonderiler">
+    <div class="row">
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>
+
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>    
+    
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>
+
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>    
+    
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>
+
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>    
+    
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>
+
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure>
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>    
+     </div>
 </section>
-<!--Kontent.-->
 
-<!-- Bootstrap CSS -->
-<script src="css/bootstrap/jquery.js"></script>
+<!--Bootstrap-->
+<script src="css/bootstrap/jquery321.js"></script>
 <script src="css/bootstrap/bootstrap.min.js"></script>
-<script src="js/fonksiyonlar.js"></script>
-<!-- /Bootstrap CSS -->   
+<script src="css/bootstrap/popper.min.js"></script>
+<!--Bootstrap-->      
 </body>
 </html>
