@@ -1,9 +1,5 @@
 /*Bootstrap reset*/
-.row {margin-left: -7px;margin-right: -7px;}
-[class^="col-"],.col,.container,.container-fluid {
-    padding-left: 7px!important;
-    padding-right: 7px!important;
-}
+
 /*Bootstrap reset*/
 
 @media screen and (max-width:768px){
