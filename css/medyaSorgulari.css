@@ -2,16 +2,11 @@
 
 /*Bootstrap reset*/
 
-@media screen and (min-width:640px){
-.row {margin-left: -7px;margin-right: -7px;}
-[class^="col-"],.col,.container,.container-fluid {
-    padding-left: 7px!important;
-    padding-right: 7px!important;
-}}
 
 @media screen and (max-width:768px){
     .uyeOl{margin-right: 0px!important;margin-bottom: 5px;}
 }
+
 @media screen and (min-width:1024px){
     .sonGonderiler a{
         -webkit-box-flex: 0;
