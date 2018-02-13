@@ -68,8 +68,8 @@ header{
     margin: 0 auto
 }
 
-.sonGonderiler a{margin-bottom: 15px}
-.sonGonderiler h1{
+.sonGonderiler a,.benzerGonderiler a{margin-bottom: 15px}
+.sonGonderiler h1,.benzerGonderiler h1{
     height: 44px;
     overflow: hidden;
     line-height: 20px;
