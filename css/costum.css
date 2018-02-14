@@ -52,6 +52,8 @@ header,#slayder{background: url('../img/global/sliderBg.png')}
 header{
     padding: 15px 0;
 }
+.neredeyim{margin-top: 15px}
+.bolumBaslik{margin-bottom: 15px}
 .bolumBaslik h4{
     background: #ffc107;
     border-color: #ffc107;
