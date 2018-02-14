@@ -80,7 +80,14 @@ header{
     color: rgba(0, 0, 0, .9);
     letter-spacing: -1px
 }
-
+.makaleDetay div>h1{
+        font-weight: 300;
+    letter-spacing: -2px;
+}
+.makaleDetay article{
+    font-size: medium;
+    font-weight: 400
+}
 
 
 
