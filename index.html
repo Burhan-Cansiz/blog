@@ -11,6 +11,28 @@
 </head>
 <body>
 
+<!--Ajx-->
+<div class="ajx"></div>
+<!--Ajx.-->
+
+<!--Arama form-->
+<section class="modalBox transparanBg aramaForm">
+    <div class="col-sm-10 offset-sm-1">
+        <form class="card" onsubmit="return false">
+            <div class="card-header bg-white border-0">Ara</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Birşeyler Ara">
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <button  class="btn btn-primary btn-sm" onclick="$.aramaFormKapat()"> Kapat </button>
+            </div>
+        </form>
+    </div>
+</section>
+<!--Arama form.-->
+
 <!--Header-->
 <header>
 <div class="container">
@@ -24,7 +46,7 @@
         <a class="nav-link" href="index.html"><span class="icon-home"></span>&nbsp; Anasayfa</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"><span class="icon-search"></span>&nbsp; Ara</a>
+        <a class="nav-link" href="javascript:void(0)" onclick="$.aramaFormAc()"><span class="icon-search"></span>&nbsp; Ara</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#"><span class="icon-menu"></span>&nbsp; Menü &nbsp; </a>
@@ -156,6 +178,8 @@
 <script src="css/bootstrap/jquery321.js"></script>
 <script src="css/bootstrap/bootstrap.min.js"></script>
 <script src="css/bootstrap/popper.min.js"></script>
+<script src="js/fonksiyonlar.js"></script>
+
 <!--Bootstrap.-->  
     
 </body>
