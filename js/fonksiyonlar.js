@@ -6,8 +6,15 @@ $(function () {
 
     $.aramaFormKapat = function () {
         $('.aramaForm').hide();
-    } 
+    }
+    
+    $.menuAc = function () {
+        $('.acilirMenu').show();
+    }    
 
+    $.menuKapat = function () {
+        $('.acilirMenu').hide();
+    }
 
 
 

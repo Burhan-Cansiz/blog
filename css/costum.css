@@ -9,7 +9,7 @@
 .colorBlack{color: black!important}
 .red{background:  red}
 .transparanBg{background: rgba(0, 0, 0, .6);filter: alpha(opacity=50);}
-
+.gizli{display: none}
 
 /*Sınıflar*/
 
@@ -120,6 +120,10 @@ header{
     from {margin-top: 1%;}
     to {margin-top: 6%;}
 }
-.aramaForm{display: none}
+.yemekTarifleri a>div {
+    height: 91px;
+    margin-top: 10px;
+    padding-top: 22px;
+}
 
 
