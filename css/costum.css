@@ -123,7 +123,8 @@ header{
 .yemekTarifleri a>div,.digerKategori a>div {
     height: 91px;
     margin-top: 10px;
-    padding-top: 22px;
+    padding: 7px;
+    overflow: hidden
 }
 
 
