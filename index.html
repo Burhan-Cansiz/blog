@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="card-footer text-right">
-                <button  class="btn btn-primary btn-sm" onclick="$.aramaFormKapat()"> Kapat </button>
+                <button class="btn btn-primary btn-sm" onclick="$.aramaFormKapat()"> Kapat </button>
             </div>
         </form>
     </div>
@@ -35,73 +35,57 @@
 
 <!--Açılır menü-->
 <section class="modalBox transparanBg  gizli acilirMenu">
-    <div class="col-sm-10 offset-sm-1">
-        <div class="card">
-            <div class="card-body">
-       
-                             
-            <ul class="nav nav-tabs col" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="yemekTarifleri-tab" data-toggle="tab" href="#yemekTarifleri" role="tab" aria-controls="yemekTarifleri" aria-selected="true">Yemek Tarifleri</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="digerKategori-tab" data-toggle="tab" href="#digerKategori" role="tab" aria-controls="digerKategori" aria-selected="false">Diğer Katg</a>
-                </li>
-                <li class="nav-item ml-auto">
-                    <a href="javascript:void(0)" class="nav-link border-0" onclick="$.menuKapat()">Kapat</a>
-                </li>
-            </ul>
-            
-            
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active yemekTarifleri" id="yemekTarifleri" role="tabpanel" aria-labelledby="yemekTarifleri-tab">
-                <br>
- 
-            <div class="row">
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yemekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Börekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Çörekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Tatlılar </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Atıştırmalıklar </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Sahurluk </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">İftarlık </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Diyet </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Ramazan Menüsü </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Diyet yapanlar için</div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yöresel lezzetler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yöresel lezzetler </div></a>
-            </div>
-
-
-
-    
-
-
-                       
-                </div>
-                <div class="tab-pane fade digerKategori" id="digerKategori" role="tabpanel" aria-labelledby="digerKategori-tab">
-                <br><div class="row">
-				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Teknoloji </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Moda </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Takı </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Trentler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Sağlık </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Oya </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Dikiş nakış </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Dini </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yemekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yemekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yemekler </div></a>
-                <a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center">Yemekler </div></a>
-                            
-                </div>
-  
-                </div>
-            </div>
-           
-            </div>
-        </div>
-    </div>
+<div class="col-sm-10 offset-sm-1">
+	<div class="card">
+		<div class="card-body">
+		<ul class="nav nav-tabs col" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="yemekTarifleri-tab" data-toggle="tab" href="#yemekTarifleri" role="tab" aria-controls="yemekTarifleri" aria-selected="true">Yemek Tarifleri</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="digerKategori-tab" data-toggle="tab" href="#digerKategori" role="tab" aria-controls="digerKategori" aria-selected="false">Diğer Katg</a>
+			</li>
+			<li class="nav-item ml-auto">
+				<a href="javascript:void(0)" class="nav-link border-0" onclick="$.menuKapat()">x</a>
+			</li>
+		</ul>
+		<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active yemekTarifleri" id="yemekTarifleri" role="tabpanel" aria-labelledby="yemekTarifleri-tab"><br>
+			<div class="row">
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yemekler </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Börekler </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Çörekler </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Tatlılar </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Atıştırmalıklar </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Sahurluk </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">İftarlık </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Diyet </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Ramazan Menüsü </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Diyet yapanlar için</div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yöresel lezzetler </div></a>
+				<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yöresel lezzetler </div></a>
+			</div>
+		</div>
+		<div class="tab-pane fade digerKategori" id="digerKategori" role="tabpanel" aria-labelledby="digerKategori-tab"><br>
+		<div class="row">
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Teknoloji </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Moda </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Takı </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Trentler </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Sağlık </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Oya </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Dikiş nakış </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Dini </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yemekler </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yemekler </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yemekler </div></a>
+			<a href="" class="d-inline-block col-6 col-xs-4  col-sm-6 col-md-3"><div class="border text-center bg-primary text-light rounded">Yemekler </div></a>
+		</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
 </section>
 <!--Açılır menü.-->
 
@@ -109,28 +93,27 @@
 <header>
 <div class="container">
 <nav class="navbar navbar-expand-md navbar-dark bg-dark rounded">
-    <a class="navbar-brand" href="index.html">BC</a>
-    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
-  <div class="navbar-collapse collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html"><span class="icon-home"></span>&nbsp; Anasayfa</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)" onclick="$.aramaFormAc()"><span class="icon-search"></span>&nbsp; Ara</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0)" onclick="$.menuAc()"><span class="icon-menu"></span>&nbsp; Menü &nbsp; </a>
-      </li>
-      <li class="nav-item mrgR7 uyeOl">
-        <a class="btn btn-warning btn-sm colorBlack nav-link" href="#"><span class="icon-user-female"></span>&nbsp; Üye Ol</a>
-      </li>
-      <li class="nav-item login">
-        <a class="btn btn-warning btn-sm colorBlack nav-link" href="#"> <span class="icon-user-female"></span>&nbsp; Oturum Aç</a>
-      </li>      
-    </ul>
-  </div>
+<a class="navbar-brand" href="index.html">BC</a>
+<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div class="navbar-collapse collapse" id="navbarSupportedContent">
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item">
+	<a class="nav-link" href="index.html"><span class="icon-home-outline"></span>&nbsp; Anasayfa</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="javascript:void(0)" onclick="$.aramaFormAc()"><span class="icon-search-1"></span>&nbsp; Ara</a>
+  </li>
+  <li class="nav-item">
+	<a class="nav-link" href="javascript:void(0)" onclick="$.menuAc()"><span class="icon-menu"></span>&nbsp; Menü &nbsp; </a>
+  </li>
+  <li class="nav-item mrgR7 uyeOl">
+	<a class="bg-warning text-dark nav-link" href="#"><span class="icon-user"></span>&nbsp; Üye Ol</a>
+  </li>
+  <li class="nav-item login">
+	<a class="bg-warning text-dark nav-link" href="#"> <span class="icon-user"></span>&nbsp; Oturum Aç</a>
+  </li>      
+</ul>
+</div>
 </nav>
 </div>
 </header>
@@ -164,7 +147,7 @@
 <section class="container">
     <div class="row">
         <div class="col bolumBaslik ">
-            <h4><span class="icon-menu"></span> Son Gönderiler</h4>
+            <h4><span class="icon-edit"></span> Son Gönderiler</h4>
             <hr>
         </div>
     </div>
@@ -173,75 +156,87 @@
 
 <!--Son gönderiler-->
 <section class="container sonGonderiler">
-    <div class="row">
+    <div class="row ">
     <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-edit"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
     </a>
 
     <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-edit"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a>    
+    </a>
+
+    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-edit"></span>
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>              
     
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
     </a>
 
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a>    
+    </a>
+
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>  
     
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
-            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
-        </figure> 
-        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a>
-
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
-            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
-        </figure> 
-        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a>    
     
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
     </a>
 
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
-        </figure> 
-        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a> 
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
-            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
     </a>
 
-    <a href="makaleDetay.html" class="col-sm-6 col-md-4 col-lg-2">
-        <figure>
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
             <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
         </figure> 
         <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
-    </a>          
+    </a>  
+    
+    <a href="videoDetay.html" class="col-sm-6 col-md-4 col-lg-2">
+        <figure class="position-relative">
+            <img src="img/makale/11022018210431k.jpg" class="img-fluid" alt="Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  ">
+            <span class="icon-video"></span>
+        </figure> 
+        <h1>Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir. Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri endüstri standardı sahte metinler olarak kullanılmıştır. Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren Letraset  </h1>
+    </a>                  
      </div>
 </section>
 <!--Son gönderiler.-->
@@ -251,8 +246,7 @@
 <script src="css/bootstrap/bootstrap.min.js"></script>
 <script src="css/bootstrap/popper.min.js"></script>
 <script src="js/fonksiyonlar.js"></script>
-
 <!--Bootstrap.-->  
-    
+
 </body>
 </html>

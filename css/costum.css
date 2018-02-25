@@ -86,6 +86,13 @@ header{
     color: rgba(0, 0, 0, .9);
     letter-spacing: -1px
 }
+.sonGonderiler figure span,.benzerGonderiler figure span{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: white;
+    font-size: x-large;
+} 
 .makaleDetay div>h1{
         font-weight: 300;
     letter-spacing: -2px;
