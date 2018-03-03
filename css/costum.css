@@ -11,6 +11,7 @@
 .transparanBg{background: rgba(0, 0, 0, .6);filter: alpha(opacity=50);}
 .gizli{display: none}
 .bgGray{background: #e9ecef}
+.fontW400{font-weight: 400}
 
 /*Sınıflar*/
 
